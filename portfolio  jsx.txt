@@ -1,0 +1,431 @@
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import api from "../api/api";
+import "../styles/common.css";
+
+function Portfolios() {
+  const navigate = useNavigate();
+
+  const [portfolios, setPortfolios] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    loadPortfolios();
+  }, []);
+
+  async function loadPortfolios() {
+    try {
+      setLoading(true);
+      setMessage("");
+
+      const response = await api.get("/api/portfolios");
+
+      console.log("PORTFOLIO LIST:", response.data);
+
+      let list = [];
+
+      if (Array.isArray(response.data)) {
+        list = response.data;
+      } else if (Array.isArray(response.data?.portfolios)) {
+        list = response.data.portfolios;
+      } else if (Array.isArray(response.data?.data)) {
+        list = response.data.data;
+      }
+
+      setPortfolios(list);
+    } catch (error) {
+      console.log(error);
+
+      setMessage(
+        error.response?.data?.detail ||
+          "Unable to load portfolios"
+      );
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function activatePortfolio(portfolioId) {
+    const confirmed = window.confirm(
+      "Activate this portfolio?"
+    );
+
+    if (!confirmed) {
+      return;
+    }
+
+    try {
+      const response = await api.put(
+        `/api/portfolios/${portfolioId}/activate`
+      );
+
+      console.log(
+        "ACTIVATE RESPONSE:",
+        response.data
+      );
+
+      setMessage(
+        "Portfolio activated successfully"
+      );
+
+      await loadPortfolios();
+    } catch (error) {
+      console.log(error);
+
+      setMessage(
+        error.response?.data?.detail ||
+          "Unable to activate portfolio"
+      );
+    }
+  }
+
+  function money(value) {
+    return Number(value || 0).toLocaleString(
+      "en-IN",
+      {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+      }
+    );
+  }
+
+  function getStatusClass(status) {
+    if (status === "Active") {
+      return "status-badge active-status";
+    }
+
+    if (status === "Closed") {
+      return "status-badge inactive-status";
+    }
+
+    return "status-badge new-status";
+  }
+
+  return (
+    <div>
+
+      {/* ================================
+          PAGE HEADER
+      ================================= */}
+
+      <div className="page-heading-row">
+
+        <div className="page-heading">
+
+          <h1>
+            Portfolio Manager
+          </h1>
+
+          <p>
+            View and manage investment
+            portfolios.
+          </p>
+
+        </div>
+
+        <button
+          className="primary-button"
+          onClick={() =>
+            navigate("/portfolios/new")
+          }
+        >
+          + Create Portfolio
+        </button>
+
+      </div>
+
+
+      {/* ================================
+          MESSAGE
+      ================================= */}
+
+      {message && (
+        <div className="asset-message">
+          {message}
+        </div>
+      )}
+
+
+      {/* ================================
+          LOADING
+      ================================= */}
+
+      {loading && (
+        <p className="small-muted">
+          Loading portfolios...
+        </p>
+      )}
+
+
+      {/* ================================
+          EMPTY STATE
+      ================================= */}
+
+      {!loading &&
+        portfolios.length === 0 && (
+          <div className="content-card">
+
+            <h3>
+              No Portfolios Yet
+            </h3>
+
+            <p className="content-card-subtitle">
+              Create your first portfolio
+              to begin investing.
+            </p>
+
+          </div>
+        )}
+
+
+      {/* ================================
+          PORTFOLIO GRID
+      ================================= */}
+
+      {!loading &&
+        portfolios.length > 0 && (
+
+          <div className="spec-grid-wrapper">
+
+            <table className="spec-grid portfolio-spec-grid">
+
+              <thead>
+
+                <tr>
+
+                  <th>
+                    Portfolio Name
+                  </th>
+
+                  <th>
+                    Portfolio Type
+                  </th>
+
+                  <th>
+                    Theme
+                  </th>
+
+                  <th>
+                    Currency
+                  </th>
+
+                  <th>
+                    Benchmark
+                  </th>
+
+                  <th>
+                    Rebalance Frequency
+                  </th>
+
+                  <th>
+                    Initial Investment
+                  </th>
+
+                  <th>
+                    Current Value
+                  </th>
+
+                  <th>
+                    Status
+                  </th>
+
+                  <th>
+                    Actions
+                  </th>
+
+                </tr>
+
+              </thead>
+
+
+              <tbody>
+
+                {portfolios.map(
+                  (portfolio) => (
+
+                    <tr
+                      key={
+                        portfolio.portfolio_id
+                      }
+                    >
+
+                      {/* PORTFOLIO NAME */}
+
+                      <td>
+
+                        <div className="grid-primary-text">
+
+                          {
+                            portfolio.portfolio_name
+                          }
+
+                        </div>
+
+                      </td>
+
+                      {/* TYPE */}
+
+                      <td>
+
+                        {
+                          portfolio.portfolio_type ||
+                          "-"
+                        }
+
+                      </td>
+
+
+                      {/* THEME */}
+
+                      <td>
+
+                        {
+                          portfolio.theme_name ||
+                          "-"
+                        }
+
+                      </td>
+
+
+                      {/* CURRENCY */}
+
+                      <td>
+
+                        {
+                          portfolio.currency ||
+                          "INR"
+                        }
+
+                      </td>
+
+
+                      {/* BENCHMARK */}
+
+                      <td>
+
+                        {
+                          portfolio.benchmark_name ||
+                          "-"
+                        }
+
+                      </td>
+
+
+                      {/* REBALANCING */}
+
+                      <td>
+
+                        {
+                          portfolio.rebalancing_frequency ||
+                          "-"
+                        }
+
+                      </td>
+
+
+                      {/* INITIAL INVESTMENT */}
+
+                      <td>
+
+                        ₹
+                        {
+                          money(
+                            portfolio.initial_investment
+                          )
+                        }
+
+                      </td>
+
+
+                      {/* CURRENT VALUE */}
+
+                      <td>
+
+                        ₹
+                        {
+                          money(
+                            portfolio.current_value ??
+                            portfolio.available_balance ??
+                            portfolio.initial_investment
+                          )
+                        }
+
+                      </td>
+
+
+                      {/* STATUS */}
+
+                      <td>
+
+                        <span
+                          className={getStatusClass(
+                            portfolio.status
+                          )}
+                        >
+
+                          {
+                            portfolio.status
+                          }
+
+                        </span>
+
+                      </td>
+
+
+                      {/* ACTIONS */}
+
+                      <td>
+
+                        <div className="grid-actions">
+
+                          <button
+                            className="small-action-button"
+                            onClick={() =>
+                              navigate(
+                                `/portfolios/${portfolio.portfolio_id}`
+                              )
+                            }
+                          >
+                            View
+                          </button>
+
+
+                          {portfolio.status ===
+                            "New" && (
+
+                            <button
+                              className="small-action-button activate-button"
+                              onClick={() =>
+                                activatePortfolio(
+                                  portfolio.portfolio_id
+                                )
+                              }
+                            >
+                              Go Live
+                            </button>
+
+                          )}
+
+                        </div>
+
+                      </td>
+
+                    </tr>
+
+                  )
+                )}
+
+              </tbody>
+
+            </table>
+
+          </div>
+
+        )}
+
+    </div>
+  );
+}
+
+export default Portfolios;
