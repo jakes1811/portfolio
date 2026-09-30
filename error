@@ -1,0 +1,892 @@
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1060)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 45, in <module>
+    from . import staggered
+  File "C:\Program Files\Python314\Lib\asyncio\staggered.py", line 10, in <module>
+    from . import tasks
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\pydantic\networks.py', 'venv\Lib\site-packages\pydantic\mypy.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1060)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 45, in <module>
+    from . import staggered
+  File "C:\Program Files\Python314\Lib\asyncio\staggered.py", line 10, in <module>
+    from . import tasks
+  File "C:\Program Files\Python314\Lib\asyncio\tasks.py", line 29, in <module>
+    from . import timeouts
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\pydantic\main.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1060)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 44, in <module>
+    from . import sslproto
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\pydantic\generics.py', 'venv\Lib\site-packages\pydantic\functional_serializers.py'. Reloading...
+ INFO:     Started server process [18396]
+INFO:     Waiting for application startup.
+Initializing Portfolio database...
+All 10 tables created successfully.
+Asset classes inserted successfully.
+Five investment themes inserted successfully.
+Theme allocations inserted successfully.
+Database initialization completed.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18396]
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\pydantic\errors.py', 'venv\Lib\site-packages\pydantic_core\__init__.py', 'venv\Lib\site-packages\pydantic\env_settings.py', 'venv\Lib\site-packages\pydantic\datetime_parse.py', 'venv\Lib\site-packages\pydantic\functional_validators.py', 'venv\Lib\site-packages\pydantic\config.py', 'venv\Lib\site-packages\pydantic\dataclasses.py', 'venv\Lib\site-packages\pydantic\color.py', 'venv\Lib\site-packages\pydantic\json_schema.py', 'venv\Lib\site-packages\pydantic\alias_generators.py', 'venv\Lib\site-packages\pydantic\decorator.py', 'venv\Lib\site-packages\pydantic\error_wrappers.py', 'venv\Lib\site-packages\pydantic\json.py', 'venv\Lib\site-packages\pydantic\annotated_handlers.py', 'venv\Lib\site-packages\pydantic\aliases.py', 'venv\Lib\site-packages\pydantic\class_validators.py', 'venv\Lib\site-packages\pydantic\fields.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1060)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 44, in <module>
+    from . import sslproto
+  File "C:\Program Files\Python314\Lib\asyncio\sslproto.py", line 16, in <module>
+    from . import transports
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\pydantic_core\core_schema.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1060)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 42, in <module>
+    from . import futures
+KeyboardInterrupt
+INFO:     Started server process [4312]
+INFO:     Waiting for application startup.
+Initializing Portfolio database...
+All 10 tables created successfully.
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\requests\__version__.py'. Reloading...
+ Asset classes inserted successfully.
+Five investment themes inserted successfully.
+Theme allocations inserted successfully.
+Database initialization completed.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4312]
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\requests\help.py', 'venv\Lib\site-packages\requests\packages.py', 'venv\Lib\site-packages\requests\exceptions.py', 'venv\Lib\site-packages\requests\models.py', 'venv\Lib\site-packages\requests\sessions.py', 'venv\Lib\site-packages\requests\__init__.py', 'venv\Lib\site-packages\requests\_internal_utils.py', 'venv\Lib\site-packages\requests\structures.py', 'venv\Lib\site-packages\requests\utils.py', 'venv\Lib\site-packages\requests\_types.py', 'venv\Lib\site-packages\requests\status_codes.py', 'venv\Lib\site-packages\requests\hooks.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1060)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 34, in <module>
+    import ssl
+  File "C:\Program Files\Python314\Lib\ssl.py", line 263, in <module>
+    import base64        # for DER-to-PEM translation
+    ^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 849, in get_code
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\requests\cookies.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1060)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 18, in <module>
+    import concurrent.futures
+  File "C:\Program Files\Python314\Lib\concurrent\futures\__init__.py", line 8, in <module>
+    from concurrent.futures._base import (FIRST_COMPLETED,
+    ...<9 lines>...
+                                          as_completed)
+  File "<frozen importlib._bootstrap>", line 1368, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 420, in __enter__
+  File "<frozen importlib._bootstrap>", line 446, in _get_module_lock
+  File "<frozen importlib._bootstrap>", line 232, in __init__
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\requests\api.py', 'venv\Lib\site-packages\requests\compat.py', 'venv\Lib\site-packages\requests\auth.py', 'venv\Lib\site-packages\requests\certs.py', 'venv\Lib\site-packages\requests\adapters.py'. Reloading...
+ Traceback (most recent call last):
+  File "<frozen importlib._bootstrap_external>", line 999, in set_data
+  File "<frozen importlib._bootstrap_external>", line 206, in _write_atomic
+PermissionError: [Errno 13] Permission denied: 'C:\\Program Files\\Python314\\Lib\\multiprocessing\\__pycache__\\__init__.cpython-314.pyc.2444559547952'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1320)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 906, in get_code
+  File "<frozen importlib._bootstrap_external>", line 974, in _cache_bytecode
+  File "<frozen importlib._bootstrap_external>", line 1003, in set_data
+  File "<frozen importlib._bootstrap>", line 494, in _verbose_message
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\starlette\__init__.py', 'venv\Lib\site-packages\starlette\_utils.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1320)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 43, in <module>
+    from . import protocols
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\starlette\_exception_handler.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1376)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 45, in <module>
+    from .windows_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\windows_events.py", line 24, in <module>
+    from . import selector_events
+  File "C:\Program Files\Python314\Lib\asyncio\selector_events.py", line 14, in <module>
+    import selectors
+  File "C:\Program Files\Python314\Lib\selectors.py", line 46, in <module>
+    SelectorKey = namedtuple('SelectorKey', ['fileobj', 'fd', 'events', 'data'])
+  File "C:\Program Files\Python314\Lib\collections\__init__.py", line 447, in namedtuple
+    __new__ = eval(code, namespace)
+  File "<string>", line 0, in <module>
+    
+    
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1376)
+    
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\starlette\templating.py', 'venv\Lib\site-packages\starlette\staticfiles.py', 'venv\Lib\site-packages\starlette\testclient.py', 'venv\Lib\site-packages\starlette\websockets.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1376)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\starlette\status.py', 'venv\Lib\site-packages\starlette\schemas.py', 'venv\Lib\site-packages\starlette\requests.py', 'venv\Lib\site-packages\starlette\types.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1376)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 18, in <module>
+    import concurrent.futures
+  File "C:\Program Files\Python314\Lib\concurrent\futures\__init__.py", line 8, in <module>
+    from concurrent.futures._base import (FIRST_COMPLETED,
+    ...<9 lines>...
+                                          as_completed)
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\starlette\formparsers.py', 'venv\Lib\site-packages\starlette\routing.py', 'venv\Lib\site-packages\starlette\responses.py', 'venv\Lib\site-packages\starlette\exceptions.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1376)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\__init__.py", line 16, in <module>
+    from . import context
+  File "C:\Program Files\Python314\Lib\multiprocessing\context.py", line 6, in <module>
+    from . import reduction
+  File "C:\Program Files\Python314\Lib\multiprocessing\reduction.py", line 16, in <module>
+    import socket
+  File "C:\Program Files\Python314\Lib\socket.py", line 52, in <module>
+    import _socket
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\starlette\datastructures.py', 'venv\Lib\site-packages\starlette\endpoints.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1376)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\starlette\convertors.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1320)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\starlette\authentication.py', 'venv\Lib\site-packages\starlette\background.py', 'venv\Lib\site-packages\starlette\applications.py', 'venv\Lib\site-packages\starlette\concurrency.py', 'venv\Lib\site-packages\starlette\config.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 924, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 822, in module_from_spec
+  File "<frozen importlib._bootstrap>", line 801, in _init_module_attrs
+  File "<frozen importlib._bootstrap>", line 641, in cached
+  File "<frozen importlib._bootstrap_external>", line 372, in _get_cached
+  File "<frozen importlib._bootstrap_external>", line 266, in cache_from_source
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\typing_inspection\__init__.py'. Reloading...
+ INFO:     Started server process [8164]
+INFO:     Waiting for application startup.
+Initializing Portfolio database...
+All 10 tables created successfully.
+Asset classes inserted successfully.
+Five investment themes inserted successfully.
+Theme allocations inserted successfully.
+Database initialization completed.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8164]
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\urllib3\_request_methods.py', 'venv\Lib\site-packages\urllib3\__init__.py', 'venv\Lib\site-packages\tzdata\__init__.py', 'venv\Lib\site-packages\typing_inspection\introspection.py', 'venv\Lib\site-packages\urllib3\_base_connection.py', 'venv\Lib\site-packages\urllib3\_collections.py', 'venv\Lib\site-packages\urllib3\_version.py', 'venv\Lib\site-packages\typing_inspection\typing_objects.py', 'venv\Lib\site-packages\urllib3\fields.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 18, in <module>
+    from .streams import *
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\urllib3\poolmanager.py', 'venv\Lib\site-packages\urllib3\connection.py', 'venv\Lib\site-packages\urllib3\exceptions.py', 'venv\Lib\site-packages\urllib3\response.py', 'venv\Lib\site-packages\urllib3\filepost.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 44, in <module>
+    from . import sslproto
+  File "C:\Program Files\Python314\Lib\asyncio\sslproto.py", line 23, in <module>
+    class SSLProtocolState(enum.Enum):
+    ...<4 lines>...
+        SHUTDOWN = "SHUTDOWN"
+  File "C:\Program Files\Python314\Lib\enum.py", line 550, in __new__
+    enum_class = super().__new__(metacls, cls, bases, classdict, **kwds)
+  File "C:\Program Files\Python314\Lib\enum.py", line 239, in __set_name__
+    def __set_name__(self, enum_class, member_name):
+    
+KeyboardInterrupt
+Error calling __set_name__ on '_proto_member' instance 'UNWRAPPED' in 'SSLProtocolState'
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\urllib3\connectionpool.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 43, in <module>
+    from . import protocols
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\uvicorn\_types.py', 'venv\Lib\site-packages\uvicorn\__main__.py', 'venv\Lib\site-packages\uvicorn\__init__.py', 'venv\Lib\site-packages\uvicorn\_subprocess.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 45, in <module>
+    from . import staggered
+  File "C:\Program Files\Python314\Lib\asyncio\staggered.py", line 10, in <module>
+    from . import tasks
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\uvicorn\_ansi.py', 'venv\Lib\site-packages\uvicorn\_compat.py', 'venv\Lib\site-packages\uvicorn\server.py', 'venv\Lib\site-packages\uvicorn\workers.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 45, in <module>
+    from .windows_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\windows_events.py", line 20, in <module>
+    from . import base_subprocess
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\uvicorn\logging.py', 'venv\Lib\site-packages\uvicorn\main.py', 'venv\Lib\site-packages\uvicorn\importer.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 45, in <module>
+    from . import staggered
+  File "C:\Program Files\Python314\Lib\asyncio\staggered.py", line 10, in <module>
+    from . import tasks
+  File "C:\Program Files\Python314\Lib\asyncio\tasks.py", line 28, in <module>
+    from . import queues
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\uvicorn\config.py', 'venv\Lib\site-packages\watchfiles\__main__.py'. Reloading...
+ INFO:     Started server process [17476]
+INFO:     Waiting for application startup.
+Initializing Portfolio database...
+All 10 tables created successfully.
+Asset classes inserted successfully.
+Five investment themes inserted successfully.
+Theme allocations inserted successfully.
+Database initialization completed.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17476]
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\websockets\version.py', 'venv\Lib\site-packages\watchfiles\cli.py', 'venv\Lib\site-packages\watchfiles\main.py', 'venv\Lib\site-packages\websockets\__main__.py', 'venv\Lib\site-packages\watchfiles\run.py', 'venv\Lib\site-packages\watchfiles\version.py', 'venv\Lib\site-packages\watchfiles\filters.py', 'venv\Lib\site-packages\watchfiles\__init__.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 34, in <module>
+    import ssl
+  File "C:\Program Files\Python314\Lib\ssl.py", line 100, in <module>
+    import _ssl             # if we can't import it, let the error propagate
+    ^^^^^^^^^^^
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\websockets\utils.py', 'venv\Lib\site-packages\websockets\streams.py', 'venv\Lib\site-packages\websockets\__init__.py', 'venv\Lib\site-packages\websockets\uri.py', 'venv\Lib\site-packages\websockets\typing.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 49, in <module>
+    from . import trsock
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\websockets\proxy.py', 'venv\Lib\site-packages\websockets\server.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 45, in <module>
+    from . import staggered
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\websockets\headers.py', 'venv\Lib\site-packages\websockets\protocol.py', 'venv\Lib\site-packages\websockets\http11.py', 'venv\Lib\site-packages\websockets\imports.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 45, in <module>
+    from .windows_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\windows_events.py", line 24, in <module>
+    from . import selector_events
+  File "C:\Program Files\Python314\Lib\asyncio\selector_events.py", line 14, in <module>
+    import selectors
+  File "C:\Program Files\Python314\Lib\selectors.py", line 60, in <module>
+    class _SelectorMapping(Mapping):
+    ...<20 lines>...
+            return iter(self._selector._fd_to_key)
+  File "<frozen abc>", line 107, in __new__
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\websockets\exceptions.py', 'venv\Lib\site-packages\websockets\frames.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 13, in <module>
+    from .graph import *
+  File "C:\Program Files\Python314\Lib\asyncio\graph.py", line 33, in <module>
+    @dataclasses.dataclass(frozen=True, slots=True)
+     ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\dataclasses.py", line 1441, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "C:\Program Files\Python314\Lib\dataclasses.py", line 1239, in _process_class
+    cls = _add_slots(cls, frozen, weakref_slot, fields)
+  File "C:\Program Files\Python314\Lib\dataclasses.py", line 1353, in _add_slots
+    field_names = tuple(f.name for f in fields(cls))
+                                        ~~~~~~^^^^^
+  File "C:\Program Files\Python314\Lib\dataclasses.py", line 1469, in fields
+    return tuple(f for f in fields.values() if f._field_type is _FIELD)
+           ^^^^^
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\websockets\datastructures.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 7, in <module>
+    import logging.config
+  File "C:\Program Files\Python314\Lib\logging\config.py", line 31, in <module>
+    import logging.handlers
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 851, in get_code
+  File "<frozen importlib._bootstrap_external>", line 950, in get_data
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\websockets\connection.py', 'venv\Lib\site-packages\websockets\cli.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 34, in <module>
+    import ssl
+  File "C:\Program Files\Python314\Lib\ssl.py", line 100, in <module>
+    import _ssl             # if we can't import it, let the error propagate
+    ^^^^^^^^^^^
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\websockets\auth.py', 'venv\Lib\site-packages\websockets\client.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 45, in <module>
+    from .windows_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\windows_events.py", line 24, in <module>
+    from . import selector_events
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\yaml\__init__.py'. Reloading...
+ Traceback (most recent call last):
+  File "<frozen importlib._bootstrap_external>", line 999, in set_data
+  File "<frozen importlib._bootstrap_external>", line 206, in _write_atomic
+PermissionError: [Errno 13] Permission denied: 'C:\\Program Files\\Python314\\Lib\\asyncio\\__pycache__\\graph.cpython-314.pyc.2135983029040'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 13, in <module>
+    from .graph import *
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 906, in get_code
+  File "<frozen importlib._bootstrap_external>", line 974, in _cache_bytecode
+  File "<frozen importlib._bootstrap_external>", line 1003, in set_data
+  File "<frozen importlib._bootstrap>", line 494, in _verbose_message
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\yaml\resolver.py', 'venv\Lib\site-packages\yaml\tokens.py', 'venv\Lib\site-packages\yaml\scanner.py', 'venv\Lib\site-packages\yaml\serializer.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 45, in <module>
+    from . import staggered
+  File "C:\Program Files\Python314\Lib\asyncio\staggered.py", line 10, in <module>
+    from . import tasks
+  File "C:\Program Files\Python314\Lib\asyncio\tasks.py", line 28, in <module>
+    from . import queues
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 892, in get_code
+  File "<frozen importlib._bootstrap_external>", line 950, in get_data
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\yaml\reader.py', 'venv\Lib\site-packages\yaml\parser.py', 'venv\Lib\site-packages\yaml\representer.py', 'venv\Lib\site-packages\yaml\nodes.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 45, in <module>
+    from . import staggered
+  File "C:\Program Files\Python314\Lib\asyncio\staggered.py", line 10, in <module>
+    from . import tasks
+  File "C:\Program Files\Python314\Lib\asyncio\tasks.py", line 29, in <module>
+    from . import timeouts
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\yaml\events.py', 'venv\Lib\site-packages\yaml\error.py', 'venv\Lib\site-packages\yaml\loader.py', 'venv\Lib\site-packages\yaml\emitter.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 49, in <module>
+    from . import trsock
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\yaml\cyaml.py', 'venv\Lib\site-packages\yaml\constructor.py', 'venv\Lib\site-packages\yaml\dumper.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 44, in <module>
+    from . import sslproto
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\_yaml\__init__.py', 'venv\Lib\site-packages\yaml\composer.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 45, in <module>
+    from . import staggered
+  File "C:\Program Files\Python314\Lib\asyncio\staggered.py", line 9, in <module>
+    from . import locks
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\anyio\abc\__init__.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 45, in <module>
+    from . import staggered
+  File "C:\Program Files\Python314\Lib\asyncio\staggered.py", line 9, in <module>
+    from . import locks
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\anyio\abc\_testing.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 44, in <module>
+    from . import sslproto
+  File "C:\Program Files\Python314\Lib\asyncio\sslproto.py", line 17, in <module>
+    from .log import logger
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 906, in get_code
+  File "<frozen importlib._bootstrap_external>", line 974, in _cache_bytecode
+  File "<frozen importlib._bootstrap_external>", line 981, in set_data
+  File "<frozen importlib._bootstrap_external>", line 173, in _path_isdir
+  File "<frozen importlib._bootstrap_external>", line 158, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 152, in _path_stat
+KeyboardInterrupt
+WARNING:  WatchFiles detected changes in 'venv\Lib\site-packages\anyio\streams\__init__.py', 'venv\Lib\site-packages\anyio\abc\_sockets.py', 'venv\Lib\site-packages\anyio\abc\_subprocesses.py', 'venv\Lib\site-packages\anyio\abc\_eventloop.py', 'venv\Lib\site-packages\anyio\abc\_resources.py', 'venv\Lib\site-packages\anyio\abc\_streams.py', 'venv\Lib\site-packages\anyio\abc\_tasks.py'. Reloading...
+ Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend\venv\Lib\site-packages\uvicorn\config.py", line 3, in <module>
+    import asyncio
+  File "C:\Program Files\Python314\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 40, in <module>
+    from . import events
+  File "C:\Program Files\Python314\Lib\asyncio\events.py", line 861, in <module>
+    from _asyncio import (_get_running_loop, _set_running_loop,
+                          get_running_loop, get_event_loop)
+  File "<frozen importlib._bootstrap>", line 474, in _lock_unlock_module
+  File "<frozen importlib._bootstrap>", line 310, in acquire
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22092, pipe_handle=1400)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\multiprocessing\spawn.py", line 19, in <module>
+    from . import util
+KeyboardInterrupt
+INFO:     Stopping reloader process [22092]
+
+(venv) C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend>
+
+(venv) C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend>
+
+(venv) C:\Users\2000209445\OneDrive - Hexaware Technologies\Desktop\Portfolio\backend>
